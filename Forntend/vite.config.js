@@ -15,7 +15,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:4000',
+        target: 'https://food-delivery-website-backend-hjeu.onrender.com',
         changeOrigin: true,
         secure: false,
       },
